@@ -1,0 +1,27 @@
+name: chatview
+description: تطبيق محادثة ومشاركة وسائط متكامل
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  cached_network_image: ^3.2.3
+  socket_io_client: ^2.0.2
+  intl: ^0.18.1
+  provider: ^6.0.5
+  flutter_svg: ^2.0.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
